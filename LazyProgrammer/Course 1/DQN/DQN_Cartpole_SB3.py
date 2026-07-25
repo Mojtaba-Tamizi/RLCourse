@@ -77,7 +77,7 @@ class Config:
     exploration_final_eps: float = 0.02
     exploration_fraction: float = 0.30
 
-    hidden_layers: tuple[int, ...] = (128, 128)
+    hidden_layers: tuple[int, ...] = (128,)
     seed: int = 42
 
     diagnostics_freq: int = 1_000
